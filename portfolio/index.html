@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakuraba Akinori Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo">Sakuraba Akinori</a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <h1>シンプルで伝わるWeb制作を</h1>
+      <p class="hero-subtitle">Web制作・デザインを行っています</p>
+      <div class="section-line"></div>
+      <p class="hero-text">
+        初めての方でも安心して相談できる制作を心がけています。<br>
+        ざっくりしたイメージでも大丈夫です。お気軽にご相談ください。
+      </p>
+      <a href="#contact" class="hero-button">お問い合わせはこちら</a>
+    </div>
+  </section>
+</main>
+<section class="works" id="works">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2>Works</h2>
+      <p>制作実績</p>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="works-grid">
+      <a href="corporate.html" class="work-card">
+ <img src="images/corporate.png" alt="コーポレートサイト" class="work-image">
+  <div class="work-body">
+    <h3>コーポレートサイト</h3>
+    <p>誠実に伝わる、シンプルな企業サイト。</p>
+  </div>
+</a>
+
+     <a href="calm-cafe.html" class="work-card">
+ <img src="images/cafe.png" alt="カフェサイト" class="work-image">
+  <div class="work-body">
+    <h3>カフェサイト</h3>
+    <p>落ち着いた雰囲気を大切にしたWebサイト。</p>
+  </div>
+</a>
+
+    <a href="luna.html" class="work-card">
+<img src="images/h.png" alt="美容室サイト" class="work-image">
+  <div class="work-body">
+    <h3>美容室サイト</h3>
+    <p>清潔感とやわらかさを大切にしたWebサイト。</p>
+  </div>
+</a>
+    </div>
+  </div>
+</section>
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2>Skills</h2>
+      <p>できること</p>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-list">
+      <div class="skill-item">
+        <span>HTML</span>
+        <p>構造設計</p>
+      </div>
+
+      <div class="skill-item">
+        <span>CSS</span>
+        <p>スタイリング</p>
+      </div>
+
+      <div class="skill-item">
+        <span>JavaScript</span>
+        <p>動きの実装</p>
+      </div>
+
+      <div class="skill-item">
+        <span>Figma</span>
+        <p>デザイン</p>
+      </div>
+
+      <div class="skill-item">
+        <span>WordPress</span>
+        <p>学習中</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2>About</h2>
+      <p>自己紹介</p>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-content">
+      <div class="about-image">
+       <img src="images/profile.png" alt="プロフィール画像" class="profile-image">
+      </div>
+
+      <div class="about-text">
+        <p class="about-name">櫻庭　章矩</p>
+        <h3>はじめまして、櫻庭章矩と申します。</h3>
+        <p>
+          埼玉県在住、23歳。丁寧なコミュニケーションと、
+          分かりやすい制作を心がけています。
+          ご依頼者様の不安を減らせるよう、一つひとつ誠実に向き合うことを大切にしています。
+        </p>
+
+        <div class="about-stats">
+          <div>
+            <strong>作成中</strong>
+            <span>制作実績</span>
+          </div>
+          <div>
+            <strong>学習継続中</strong>
+            <span>Web制作経験</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-heading">
+      <h2>Contact</h2>
+      <p>お問い合わせ</p>
+      <div class="section-line"></div>
+    </div>
+
+    <form class="contact-form">
+      <label>
+        お名前 <span>必須</span>
+        <input type="text" placeholder="例）山田 太郎">
+      </label>
+
+      <label>
+        メールアドレス <span>必須</span>
+        <input type="email" placeholder="例）example@email.com">
+      </label>
+
+      <label>
+        メッセージ <span>必須</span>
+        <textarea placeholder="お問い合わせ内容をご入力ください"></textarea>
+      </label>
+
+      <button type="submit">送信する</button>
+    </form>
+  </div>
+</section>
+<footer class="footer">
+  <p>&copy; 2026 Sakuraba Akinori. All rights reserved.</p>
+</footer>
+</body>
+</html>
