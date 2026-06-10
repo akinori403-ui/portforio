@@ -478,6 +478,8 @@ ul {
 }
 
 .detail-buttons {
+  max-width: 910px;
+  margin: 40px auto 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
